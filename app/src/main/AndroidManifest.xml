@@ -1,0 +1,64 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ezrent">
+
+    <!-- Required permissions -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EzRent">
+
+        <!-- Splash Activity -->
+        <activity android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Activity -->
+        <activity android:name=".screens.LoginActivity"
+            android:exported="false" />
+
+        <!-- Sign Up Activity -->
+        <activity android:name=".screens.SignUpActivity"
+            android:exported="false" />
+
+        <!-- Admin Dashboard Activity -->
+        <activity android:name=".screens.AdminDashboardActivity"
+            android:exported="false" />
+
+        <!-- Tenant Dashboard Activity -->
+        <activity android:name=".screens.TenantDashboardActivity"
+            android:exported="false" />
+
+        <!-- Rental House Detail Activity -->
+        <activity android:name=".screens.RentalHouseDetailActivity"
+            android:exported="false" />
+
+        <!-- Add Rental House Activity -->
+        <activity android:name=".screens.AddRentalHouseActivity"
+            android:exported="false" />
+
+        <!-- Add Admin Activity -->
+        <activity android:name=".screens.AddAdminActivity"
+            android:exported="false" />
+
+        <!-- Facial Detection Activity -->
+        <activity android:name=".screens.FacialDetectionActivity"
+            android:exported="false" />
+
+    </application>
+</manifest>

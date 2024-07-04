@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".fragment.ChatFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Service"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have a problem or need assistance? Please contact our customer service:"
+        android:textSize="18sp"
+        android:paddingBottom="16dp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/whatsappNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+601137131267"
+        android:textColor="@color/dark_orange"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="16dp"
+        android:text="Admin surely will assist you in any problem. "
+        android:textColor="@color/primaryTextColor"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/openWhatsAppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact via WhatsApp"
+        android:textSize="16sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+</LinearLayout>

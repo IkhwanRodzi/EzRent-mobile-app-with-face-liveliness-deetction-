@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "795181277359",
+    "project_id": "ezrent-eb368",
+    "storage_bucket": "ezrent-eb368.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795181277359:android:ec1220469542e80208b45a",
+        "android_client_info": {
+          "package_name": "com.example.ezrent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqA76ZVeMgX-5dErH10pDqdAsTXk8xi9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Customer Serevice" />
+    <item
+        android:id="@+id/menu_account"
+        android:icon="@drawable/ic_account"
+        android:title="Account" />
+    <item
+        android:id="@+id/menu_add_admin"
+        android:icon="@drawable/ic_add_admin"
+        android:title="Add Admin" />
+</menu>

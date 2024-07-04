@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".screens.RentalHouseDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/houseImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_house_placeholder" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="House Name"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textColor="@color/primaryTextColor"
+            android:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="House Name"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/addressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Address"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/primaryTextColor"
+            android:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Price"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/primaryTextColor"
+            android:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/priceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Description"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/primaryTextColor"
+            android:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/uploadImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorError"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+
+        <Button
+            android:id="@+id/contactOwnerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact House Owner"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-medium"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton" />
+    </LinearLayout>
+</ScrollView>
